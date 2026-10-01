@@ -1,0 +1,19 @@
+# UTF-8 — metadata Windows cho GEVConsole.exe (PyInstaller --version-file)
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f, flags=0x0, OS=0x40004,
+    fileType=0x1, subtype=0x0, date=(0, 0)),
+  kids=[
+    StringFileInfo([StringTable(u'040904B0', [
+      StringStruct(u'CompanyName',      u'Factory Automation'),
+      StringStruct(u'FileDescription',  u'GEV Console — GigE Vision camera network tool'),
+      StringStruct(u'FileVersion',      u'1.0.0.0'),
+      StringStruct(u'InternalName',     u'GEVConsole'),
+      StringStruct(u'LegalCopyright',   u'Copyright © 2026 Factory Automation. All rights reserved.'),
+      StringStruct(u'OriginalFilename', u'GEVConsole.exe'),
+      StringStruct(u'ProductName',      u'GEV Console'),
+      StringStruct(u'ProductVersion',   u'1.0.0.0')])]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ])
